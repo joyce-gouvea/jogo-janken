@@ -1,0 +1,114 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background: url("imgs/wallpaper-5.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.titulo{
+    margin-top: 20px;
+    text-align: center;
+    color: #e1e5ed;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 5px black;
+}
+
+.quadrado-default{
+    text-align: center;
+    padding: 20px;
+}
+
+.quadradoTopo-detalhes{
+    margin: 60px auto 0;
+    height: 80px;
+    width: 335px;
+    padding-top: 10px;
+}
+
+.txt-default{
+    color: #e1e5ed;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 5px black;
+}
+
+.txt-topoDetalhe{
+    border-bottom: ridge 2px;
+    padding: 7px;
+    font-size: 18px;
+}
+
+#user-Name{
+    text-align: center;
+    margin: 30px;
+    padding: 7px 10px;
+    letter-spacing: 2px;
+    font-size: 15.5px;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 8px;
+}
+
+.botao-default{
+    margin: 20px 0 20px 607px;
+    color: #e1e5ed;
+    text-shadow: 1px 1px 1px black;
+    letter-spacing: 2px;
+    font-size: 15.5px;
+    font-family: 'Roboto', sans-serif;
+    height: 60px;
+    padding: 20px 40px;
+    box-shadow: 1px 1px 5px black;
+    background: #7a5bb8ea;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.botao-default:hover{
+    opacity: 0.7;
+}
+
+.botao-default:active{
+    color: #7d9dc5;
+    cursor: wait;
+}
+
+.container{
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quadrado-simboloDetalhes{
+    height: 150px;
+    width: 335px;
+    box-shadow: 1px 1px 5px black;
+    border-radius: 15px;
+    background: #846fb1e3;
+}
+
+.quadrado-simboloDetalhes:nth-child(2){
+    margin-left: 60px;
+}
+
+.img-Jogo{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-top: 3px;
+}
+
+.resultadoJogo{
+    text-align: center;
+    letter-spacing: 2px;
+    color: #e1e5ed;
+    text-shadow: 1px 1px 1px black;
+    background: #3f296be3;
+    box-shadow: 1px 1px 5px black;
+    margin: 35px auto 0;
+    width: 320px;
+    padding: 18px;
+    border-radius: 8px;
+}
+
+
